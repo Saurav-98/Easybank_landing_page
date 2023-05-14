@@ -14,6 +14,38 @@ const Header = () => {
           <span></span>
           <span></span>
         </a>
+
+        <ul className="header__links">
+          <li>
+            <a href="#" className="header__link">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" className="header__link">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#" className="header__link">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a href="#" className="header__link">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="#" className="header__link">
+              Careers
+            </a>
+          </li>
+        </ul>
+
+        <a href="#" className="btn btn__primary">
+          Request Invite
+        </a>
       </nav>
     </header>
   );

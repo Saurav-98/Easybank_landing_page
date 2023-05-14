@@ -5,7 +5,6 @@ import Header from "./components/Header";
 const App = () => {
   return (
     <div>
-      <h2>Let's Build this App!</h2>
       <Header />
     </div>
   );

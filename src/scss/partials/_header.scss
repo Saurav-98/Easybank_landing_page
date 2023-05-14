@@ -7,9 +7,14 @@
   }
 
   &__logo {
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
   }
 
   &__menu {
+    display: none;
     span {
       width: 25px;
       height: 2px;
@@ -19,5 +24,14 @@
         margin-bottom: 4px;
       }
     }
+  }
+
+  &__links {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.4rem;
+  }
+  &__link {
+    color: $grayishBlue;
   }
 }

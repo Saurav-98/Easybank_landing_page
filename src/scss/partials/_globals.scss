@@ -11,9 +11,30 @@ html {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
 
 body {
   line-height: 1.4;
   font-family: "Public Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 1.2rem 3.6rem;
+  border-radius: 20rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 200%;
+
+  &__primary {
+    background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+    color: $white;
+  }
 }
